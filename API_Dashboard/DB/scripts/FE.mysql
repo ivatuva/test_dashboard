@@ -1,0 +1,77 @@
+DROP TABLE IF EXISTS `FE`;
+
+CREATE TABLE IF NOT EXISTS `FE` (
+	`id` int NOT NULL AUTO_INCREMENT,
+    `Test Set`	VARCHAR(512),
+    `Test Status`	VARCHAR(512),
+    `Test Time`	INT,
+    `Chrome`	VARCHAR(512),
+    `Firefox`	VARCHAR(512),
+    `Safari`	VARCHAR(512),
+    PRIMARY KEY (id)
+);
+
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('HomePage', 'PASS', '834', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('HomePage', 'PASS', '1243', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('HomePage', 'FAIL', '1492', 'PASS', 'PASS', 'FAIL');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('HomePage', 'PASS', '812', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('HomePage', 'PASS', '1299', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('HomePage', 'PASS', '1078', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('HomePage', 'PASS', '1348', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('HomePage', 'PASS', '1469', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('HomePage', 'PASS', '1173', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('HomePage', 'FAIL', '900', 'PASS', 'FAIL', 'FAIL');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('HomePage', 'FAIL', '1140', 'PASS', 'FAIL', 'FAIL');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('AboutUs Page', 'PASS', '1198', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('AboutUs Page', 'PASS', '1365', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('AboutUs Page', 'PASS', '1350', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('AboutUs Page', 'PASS', '923', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('AboutUs Page', 'PASS', '1131', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('AboutUs Page', 'PASS', '1432', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('AboutUs Page', 'PASS', '802', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('AboutUs Page', 'PASS', '1106', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('AboutUs Page', 'PASS', '1013', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('AboutUs Page', 'PASS', '1211', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('AboutUs Page', 'FAIL', '1024', 'FAIL', 'FAIL', 'FAIL');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Work Page', 'FAIL', '994', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Work Page', 'PASS', '867', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Work Page', 'PASS', '873', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Work Page', 'PASS', '1123', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Work Page', 'PASS', '1314', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Work Page', 'PASS', '1048', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Work Page', 'PASS', '830', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Work Page', 'PASS', '1243', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Careers Page', 'PASS', '1214', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Careers Page', 'FAIL', '1295', 'FAIL', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Careers Page', 'FAIL', '969', 'PASS', 'FAIL', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Careers Page', 'PASS', '1454', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Careers Page', 'PASS', '1086', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Careers Page', 'PASS', '1063', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Careers Page', 'PASS', '1264', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Careers Page', 'PASS', '1110', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Blog Page', 'PASS', '1384', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Blog Page', 'PASS', '930', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Blog Page', 'PASS', '917', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Blog Page', 'PASS', '1077', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Blog Page', 'PASS', '1318', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Blog Page', 'PASS', '1114', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Blog Page', 'PASS', '1236', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Blog Page', 'PASS', '1174', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Blog Page', 'PASS', '1033', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Blog Page', 'PASS', '1411', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Blog Page', 'PASS', '1232', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Blog Page', 'PASS', '1410', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Blog Page', 'PASS', '1327', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Blog Page', 'PASS', '1224', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Contact Page', 'FAIL', '1037', 'PASS', 'PASS', 'FAIL');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Contact Page', 'FAIL', '870', 'PASS', 'PASS', 'FAIL');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Contact Page', 'FAIL', '863', 'PASS', 'PASS', 'FAIL');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Contact Page', 'FAIL', '1205', 'PASS', 'PASS', 'FAIL');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Contact Page', 'FAIL', '1396', 'PASS', 'PASS', 'FAIL');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Contact Page', 'FAIL', '1060', 'PASS', 'PASS', 'FAIL');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Contact Page', 'PASS', '1480', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Contact Page', 'PASS', '1257', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Contact Page', 'PASS', '840', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Contact Page', 'PASS', '1090', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Contact Page', 'PASS', '807', 'PASS', 'PASS', 'PASS');
+INSERT INTO `FE` (`Test Set`, `Test Status`, `Test Time`, `Chrome`, `Firefox`, `Safari`) VALUES ('Contact Page', 'PASS', '1097', 'PASS', 'PASS', 'PASS');

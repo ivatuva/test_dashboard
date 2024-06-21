@@ -1,0 +1,20 @@
+DROP TABLE IF EXISTS `BrowserResults`;
+
+CREATE TABLE `BrowserResults` (
+	`id` int NOT NULL AUTO_INCREMENT,
+    `Test  Set`	VARCHAR(512),
+    `ChromePass`	INT,
+    `ChromeFail`	INT,
+    `FirefoxPass`	INT,
+    `FirefoxFail`	INT,
+    `SafariPass`	INT,
+    `SafariFail`	INT,
+    PRIMARY KEY (id)
+);
+
+INSERT INTO `BrowserResults` (`Test  Set`, `ChromePass`, `ChromeFail`, `FirefoxPass`, `FirefoxFail`, `SafariPass`, `SafariFail`) VALUES ('HomePage', '11', '0', '9', '2', '8', '3');
+INSERT INTO `BrowserResults` (`Test  Set`, `ChromePass`, `ChromeFail`, `FirefoxPass`, `FirefoxFail`, `SafariPass`, `SafariFail`) VALUES ('AboutUs Page', '10', '1', '10', '1', '10', '1');
+INSERT INTO `BrowserResults` (`Test  Set`, `ChromePass`, `ChromeFail`, `FirefoxPass`, `FirefoxFail`, `SafariPass`, `SafariFail`) VALUES ('Work Page', '8', '0', '8', '0', '8', '0');
+INSERT INTO `BrowserResults` (`Test  Set`, `ChromePass`, `ChromeFail`, `FirefoxPass`, `FirefoxFail`, `SafariPass`, `SafariFail`) VALUES ('Careers Page', '7', '1', '7', '1', '8', '0');
+INSERT INTO `BrowserResults` (`Test  Set`, `ChromePass`, `ChromeFail`, `FirefoxPass`, `FirefoxFail`, `SafariPass`, `SafariFail`) VALUES ('Blog Page', '11', '0', '11', '0', '11', '0');
+INSERT INTO `BrowserResults` (`Test  Set`, `ChromePass`, `ChromeFail`, `FirefoxPass`, `FirefoxFail`, `SafariPass`, `SafariFail`) VALUES ('Contact Page', '12', '0', '12', '0', '6', '6');
