@@ -26,6 +26,15 @@
             	- On 'Driver properties' tab:
              		- allowPublicKeyRetrieval = TRUE
        - Hit the 'Test Connection' button: ![image](https://github.com/ivatuva/test_dashboard/assets/173475763/cdf69a1e-f614-43a0-85e5-83159100704c)
+ - Execute DB scripts
+ 	- On DBeaver app, hit the 'SQL' button
+  	- Select your connection
+   	- Select the 'dashboard' database ![image](https://github.com/ivatuva/test_dashboard/assets/173475763/4768fd18-4897-49f5-a4c6-81191b88934d)
+   	- On the opened script tab, past the content from 'DB/scripts/BE.mysql' file
+   	- Click on run button
+   	- The script should be executed successfully ![image](https://github.com/ivatuva/test_dashboard/assets/173475763/1da74299-e0d2-4458-92e8-65eaaa23bfcb)
+   	- Repeat the previous steps for 'DB/scripts/FE.mysql' and 'DB/scripts/Browser.mysql' files
+
 
  - Connect to grafana:
 	 - Find the grafana dashboards on: http://localhost:3000/
