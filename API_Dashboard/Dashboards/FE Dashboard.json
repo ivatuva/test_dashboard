@@ -1,0 +1,125 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": 2,
+  "links": [],
+  "panels": [
+    {
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      },
+      "id": 2,
+      "libraryPanel": {
+        "name": "Execution Average Time",
+        "uid": "ddpd8lfsqs4jkf"
+      },
+      "title": "Average Time"
+    },
+    {
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 0
+      },
+      "id": 6,
+      "libraryPanel": {
+        "name": "Pass/Fail Ratio",
+        "uid": "adpfqw18t7h8ge"
+      },
+      "title": "Pass/Fail Ratio"
+    },
+    {
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 8
+      },
+      "id": 8,
+      "libraryPanel": {
+        "name": "Test Cases By Features",
+        "uid": "ddpdaak5du0owa"
+      },
+      "title": "Test Cases By Features"
+    },
+    {
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 8
+      },
+      "id": 10,
+      "libraryPanel": {
+        "name": "Total Test Cases",
+        "uid": "edpd96dosjy80b"
+      },
+      "title": "Total Test Cases"
+    },
+    {
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 16
+      },
+      "id": 4,
+      "libraryPanel": {
+        "name": "Features in Risk",
+        "uid": "ddpfrm9q2kr28a"
+      },
+      "title": "Panel Title"
+    },
+    {
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 16
+      },
+      "id": 11,
+      "libraryPanel": {
+        "name": "Test Results By Browser",
+        "uid": "cdpg4mwbzzdvkf"
+      },
+      "title": "Test Results By Browser"
+    }
+  ],
+  "schemaVersion": 39,
+  "tags": [],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timeRangeUpdatedDuringEditOrView": false,
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "FE Dashboard",
+  "uid": "adpfshvu03aioe",
+  "version": 4,
+  "weekStart": ""
+}

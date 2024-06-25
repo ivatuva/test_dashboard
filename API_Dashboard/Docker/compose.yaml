@@ -1,10 +1,4 @@
 services:
-  InfoDB:
-    image: "influxdb:latest"
-    ports:
-      - "8086:8086"
-    volumes:
-      - /home/svl/influxdb2:/var/lib/influxdb2:rw
   Grafana:
     image: "grafana/grafana"
     ports:
