@@ -58,11 +58,15 @@
 	- Hit the 'Save & Test' button - can be found below - scroll down
 ![image](https://github.com/ivatuva/test_dashboard/assets/173475763/e665640d-4ac1-47e9-928b-0e994152b78b)
 
-  
+	- Navigate to dashboards
+ 	- Hit the 'New' dorpdown
+  	- Select the 'import' option ![image](https://github.com/ivatuva/test_dashboard/assets/173475763/03c5659c-2f56-495c-8707-f931ccdc4622)
+   	- Select the 'FE Dashboard.json' file located in the 'Dashboards' folder
+   	- Hit the 'Import' button ![image](https://github.com/ivatuva/test_dashboard/assets/173475763/899565eb-66f7-4bba-af5b-f6f228d15505)
+   	- The FE Dashboard should be displayed ![image](https://github.com/ivatuva/test_dashboard/assets/173475763/6f2948b6-060d-4774-bee2-987f6504c9e7)
+   	- Navigate to dashboards, then repeate the previous steps to import the 'BE Dashboard.json' file.
 
-
-
-
+ 
 - Run Tests
 	- Comment all test methods using /* */ 
 	- Click on Maven button located on the right side bar on you IDE
