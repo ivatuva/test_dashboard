@@ -102,27 +102,3 @@ Check Test Results
 
 After running the test, you should see the results in your IDE’s console or in the terminal.
 If the test passes, you’ll see a success message. If it fails, check the output for error details.
-## Step 6: Advanced REST Assured Usage
-Once you've mastered the basics, you can explore more advanced REST Assured features:
-
-Authentication and Authorization
-
-REST Assured supports various authentication methods, including Basic, OAuth, and more. Refer to the REST Assured documentation on Authentication for details.
-Request Specifications
-
-You can define common request parameters, headers, and more using RequestSpecification. This helps avoid redundancy in tests.
-Response Validations
-
-REST Assured provides a rich set of matchers and assertions for validating response bodies, headers, cookies, etc.
-Logging and Debugging
-
-Use REST Assured’s logging capabilities (log().all(), log().body(), etc.) to debug requests and responses.
-Data-Driven Testing
-
-You can parameterize your tests using external data sources like CSV files, databases, or Excel sheets.
-## Step 7: References and Further Reading
-REST Assured Official Documentation
-JUnit 5 User Guide
-Maven Getting Started Guide
-Gradle User Manual
-JSONPlaceholder - A free online REST API for testing and prototyping.
