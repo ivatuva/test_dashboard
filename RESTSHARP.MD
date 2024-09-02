@@ -95,8 +95,8 @@ Run the Test in Your IDE
 
 Using Visual Studio:
 Press Ctrl + F5 or click Debug > Start Without Debugging to run the test.
-Using Visual Studio Code:
-Open the terminal, navigate to your project directory, and run:
+- Using Visual Studio Code:
+- Open the terminal, navigate to your project directory, and run:
 `dotnet run
 
 ## Step 6: References and Further Reading
