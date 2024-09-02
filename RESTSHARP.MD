@@ -90,17 +90,16 @@
 
 This code sends a GET request to the JSONPlaceholder API and checks if the status code is 200 and userId is 1.
 
-Step 5: Run Your Test
+## Step 5: Run Your Test
 Run the Test in Your IDE
 
 Using Visual Studio:
 Press Ctrl + F5 or click Debug > Start Without Debugging to run the test.
 Using Visual Studio Code:
 Open the terminal, navigate to your project directory, and run:
-```csharp
-dotnet run
+`dotnet run
 
-Step 6: References and Further Reading
+## Step 6: References and Further Reading
 RestSharp Official Documentation
 .NET SDK Documentation
 Visual Studio Documentation
