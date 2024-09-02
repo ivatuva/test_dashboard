@@ -92,8 +92,8 @@
 
 This test uses JUnit 5 for assertions. If you're using a different testing framework, adjust the import statements accordingly.
 
-5. **Run Your Test**
-
+This test uses JUnit 5 for assertions. If you're using a different testing framework, adjust the import statements accordingly.
+## Step 5: Run Your Test
 Run the Test in Your IDE
 
 Right-click on the test class (e.g., RestAssuredTest) and select Run 'RestAssuredTest'.
@@ -102,9 +102,7 @@ Check Test Results
 
 After running the test, you should see the results in your IDE’s console or in the terminal.
 If the test passes, you’ll see a success message. If it fails, check the output for error details.
-
-6. **Advanced REST Assured Usage**
-
+## Step 6: Advanced REST Assured Usage
 Once you've mastered the basics, you can explore more advanced REST Assured features:
 
 Authentication and Authorization
@@ -122,9 +120,7 @@ Use REST Assured’s logging capabilities (log().all(), log().body(), etc.) to d
 Data-Driven Testing
 
 You can parameterize your tests using external data sources like CSV files, databases, or Excel sheets.
-
-7. **References and Further Reading**
-
+## Step 7: References and Further Reading
 REST Assured Official Documentation
 JUnit 5 User Guide
 Maven Getting Started Guide
