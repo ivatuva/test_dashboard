@@ -100,9 +100,9 @@ Open the terminal, navigate to your project directory, and run:
 `dotnet run
 
 ## Step 6: References and Further Reading
-RestSharp Official Documentation
-.NET SDK Documentation
-Visual Studio Documentation
-Visual Studio Code Documentation
-JSONPlaceholder - A free online REST API for testing and prototyping.
+- RestSharp Official Documentation
+- .NET SDK Documentation
+- Visual Studio Documentation
+- Visual Studio Code Documentation
+- JSONPlaceholder - A free online REST API for testing and prototyping.
 
